@@ -1,0 +1,37 @@
+.product {
+  padding: 90px 125px;
+  &__text {
+    text-align: center;
+  }
+  &__text-title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  &__text-desc {
+    color: #5e6e89;
+    font-size: 18px;
+  }
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+  }
+  &__card {
+    box-shadow: 0 4px 24px 0 #7b7b7b26;
+    border-radius: 4px;
+  }
+  &__content-text {
+    padding: 12px 26px;
+  }
+  &__title {
+    font-weight: 500;
+  }
+  &__price {
+    color: #56b280;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: end;
+  }
+}

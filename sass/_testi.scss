@@ -1,0 +1,30 @@
+.testi {
+  background: #56b2801a;
+  padding: 90px 0;
+
+  &__card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 27px;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    padding: 5px 22px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 24px 0 #8ba7b229;
+  }
+  &__title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  &__name {
+    color: #7c8087;
+  }
+}

@@ -1,0 +1,30 @@
+.footer {
+  background: #272727;
+  padding: 60px 0 115px;
+  color: #fff;
+  &__navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    max-width: 250px;
+    a {
+      display: block;
+      height: 90px;
+    }
+  }
+  &__desc {
+    letter-spacing: -0.5px;
+  }
+  &__collection-wrapper {
+    margin-top: 20px;
+    display: flex;
+    gap: 70px;
+  }
+  &__link {
+    line-height: 50px;
+  }
+  &__active {
+    color: #56b280;
+  }
+}

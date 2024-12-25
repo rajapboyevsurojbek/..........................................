@@ -1,0 +1,9 @@
+.popular {
+  padding: 90px 0 70px;
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+  }
+}

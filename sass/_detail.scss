@@ -1,0 +1,114 @@
+.detail {
+  padding: 47px 0 114px;
+  &__wrapper {
+    gap: 31px;
+    display: flex;
+  }
+
+  &__image,
+  &__content {
+    width: 50%;
+  }
+
+  &__image {
+    text-align: center;
+  }
+
+  &__product-info {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+
+  &__product-btn {
+    background: inherit;
+    color: #56b280;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+
+  &__product-title {
+    color: #272727;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 57px;
+  }
+
+  &__lr-wrapper {
+    display: flex;
+    gap: 115px;
+  }
+
+  &__product-price {
+    color: #56b280;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+
+  &__left {
+    span {
+      padding: 0 10px;
+      border: 1px solid #56b280;
+    }
+  }
+
+  &__radio {
+    margin-left: 13px;
+    margin-bottom: 20px;
+  }
+
+  &__form {
+    div {
+      border: 1px solid #e6e6e6;
+      padding: 14px;
+      font-size: 14px;
+      border-radius: 7px;
+    }
+  }
+
+  &__desc {
+    margin-top: 5px;
+    color: #808080;
+  }
+
+  &__add-btn {
+    padding: 8px 95px;
+    font-size: 18px;
+    border-radius: 4px;
+    background: #56b280;
+    color: #fff;
+    font-weight: 500;
+
+    margin-top: 67px;
+    transition: all 0.5s ease;
+
+    i {
+      padding-right: 10px;
+    }
+  }
+
+  &__add-btn:hover {
+    background: inherit;
+    outline: 1px solid #56b280;
+    color: #56b280;
+  }
+
+  &__product-content {
+    padding: 18px 16px;
+    border-radius: 7px;
+    border: 1px solid #e6e6e6;
+    margin-top: 40px;
+
+    p {
+      line-height: 25px;
+      font-size: 15px;
+      color: #808080;
+      span {
+        font-weight: 500;
+        color: #272727;
+        margin-right: 4px;
+      }
+    }
+  }
+}
